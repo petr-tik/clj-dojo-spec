@@ -3,6 +3,10 @@
   (:require [clojure.java.io :as io])
   (:require [clj-time.format :as f]))
 
+(def presidents-file
+  (slurp "https://raw.githubusercontent.com/petr-tik/clj-dojo-spec/master/presidents_births.csv"))
+
+
 
 (java.util.Locale/getDefault)
 
@@ -10,7 +14,6 @@
                         (f/formatter "MMM dd yyyy")
                         java.util.Locale/ENGLISH))
 
-; example
 (f/parse custom-formatter "July 11 1767")
 
 
