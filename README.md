@@ -1,10 +1,7 @@
 # clj-dojo-spec
 
-A Clojure library designed to ... well, that part is up to you.
+Use Clojure-Spec to solve [a reddit puzzle](https://www.reddit.com/r/dailyprogrammer/comments/49aatn/20160307_challenge_257_easy_in_what_year_were/)
 
-## Usage
-
-FIXME
 
 ## License
 
